@@ -4,9 +4,9 @@ Android Studio 30分钟上手教程
 理由（可略过）
 --------------------
 Eclipse用的很爽，为什么要学习Android Studio（以下简称AS）？  
-1. AS基于Intellij Idea，本身就比Eclipse好用（这个需要慢慢体会）
-2. Google官方对于AS有很多细腻的细节优化，进一步提升AS的易用性
-3. AS自带对于gradle的支持（gradle是什么，以及它的作用，下面会讲到）
+1. AS基于Intellij Idea，本身就比Eclipse好用（这个需要慢慢体会）  
+2. Google官方对于AS有很多细腻的细节优化，进一步提升AS的易用性  
+3. AS自带对于gradle的支持（gradle是什么，以及它的作用，下面会讲到）  
 
 第0~5分钟：AS下载和安装
 ---------------
