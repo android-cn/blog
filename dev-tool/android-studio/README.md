@@ -1,4 +1,4 @@
-Android Studio 30分钟上手教程
+Android Studio 30分钟上手指南
 =====================
 
 第0~5分钟：AS下载和安装
