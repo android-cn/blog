@@ -13,12 +13,15 @@ Eclipse用的很爽，为什么要学习Android Studio（以下简称AS）？
 从 [这里（需翻墙）](https://developer.android.com/sdk/installing/studio.html)下载Android Studio并安装（Windows系统**不要安装在系统盘**），然后打开。  
 ![Android Studio](img_as.png)  
 
-建立项目前的准备工作：翻墙
+建立项目前的准备工作1：翻墙
 ----------------------
 AS第一次打开就会下载一大堆东西，这些东西不翻墙基本是无法下载完成的。
 - 使用VPN翻墙的人：在打开AS之前先打开VPN。
 - 使用GAE翻墙的人：第一次打开AS之后，按`Ctrl`+`Alt`+`S`打开Settings，然后在左边列表中找到HTTP Proxy项，勾选Manual proxy configuration，然后把你的GAE设置进去。  
 ![GAE设置](img_gae.png)  
+
+准备工作2：更新
+主页提供的AS往往不是最新版的，你需要在初次打开AS后，点击窗口底部的蓝色`check`按钮来更新软件。更新版很小，更新完成之后软件会重启，然后就可以用了。
 
 第5~10分钟：建立第一个项目
 -----------------
