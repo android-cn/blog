@@ -10,7 +10,7 @@ Eclipse用的很爽，为什么要学习Android Studio（以下简称AS）？
 
 第0~5分钟：AS下载和安装
 ---------------
-从 [这里（需翻墙）](http://tools.android.com/download/studio/canary/latest) 选择自己系统对应的最新的版本，下载并安装（Windows系统**不要安装在系统盘**），然后打开。  
+从 [这里（需翻墙）](https://developer.android.com/sdk/installing/studio.html)下载Android Studio并安装（Windows系统**不要安装在系统盘**），然后打开。  
 ![Android Studio](img_as.png)  
 
 建立项目前的准备工作：翻墙
