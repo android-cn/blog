@@ -25,11 +25,11 @@ AS第一次打开就会下载一大堆东西，这些东西不翻墙基本是无
 如果你已经翻墙的话，几秒至几十秒之后，对话框消失，项目建立完成！  
 ![first app](img_first_app.png)  
 上图中标记部分简单解释：
-1. 标志当前Module，点击它右边的绿色三角就可以运行程序了（AS中的Module相当于Eclipse中的Project）
-2. `app`，主Module的目录
-3. `libs`，放置本地库文件的地方，和Eclipse中不一样，请注意
-4. `src`，工程关键目录，AS的项目结构是基于gradle的，和Eclipse大不相同，一定要注意
-5. `app/build.gradle`，主Module的gradle配置文件，程序的所有配置都在这里。build.gradle文件是学习AS最关键的地方，下面详细介绍。
+1. 标志当前Module，点击它右边的绿色三角就可以运行程序了（AS中的Module相当于Eclipse中的Project）  
+2. `app`，主Module的目录  
+3. `libs`，放置本地库文件的地方，和Eclipse中不一样，请注意  
+4. `src`，工程关键目录，AS的项目结构是基于gradle的，和Eclipse大不相同，一定要注意  
+5. `app/build.gradle`，主Module的gradle配置文件，程序的所有配置都在这里。build.gradle文件是学习AS最关键的地方，下面详细介绍。  
 
 第10~30分钟：build.gradle解析——魔法的核心
 ----------------
