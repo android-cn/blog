@@ -7,13 +7,13 @@ Android Studio 上手指南
 ![Android Studio](img_as.png) 
 
 主页提供的AS往往不是最新版的，你需要在初次打开AS后，点击窗口底部的蓝色`check`按钮来更新软件。更新包很小，更新完成之后软件会重启，然后就可以开始使用了。  
-_注：如果点击Check按钮后弹出网络连接失败的对话框，说明你所使用的网络需要翻墙才能正常使用AS。如果你使用VPN，开启后再次点击Check按钮；如果你使用GAE，按`Ctrl`+`Alt`+`S`打开Settings，然后在左边列表中找到HTTP Proxy项，勾选Manual proxy configuration，然后把你的GAE设置进去（如下图）。_ 
+_注：如果点击Check按钮后弹出网络连接失败的对话框，说明你所使用的网络需要翻墙才能正常使用AS。如果你使用VPN，开启后VPN再次点击Check按钮；如果你使用GAE，按`Ctrl`+`Alt`+`S`打开Settings，然后在左边列表中找到HTTP Proxy项，勾选Manual proxy configuration，然后把你的GAE设置进去（如下图）。_ 
 ![GAE设置](img_gae.png)  
 
 二、建立第一个项目
 -----------------
 ####1. 新建项目
-点击`Quick Start`中的`New Project`，按照提示一步步走，点完finish会进入新的界面（此处也有可能需要翻墙，和你使用的网络有关）：  
+点击`Quick Start`中的`New Project`，按照提示一步步走，点完finish会进入新的界面（此处也可能需要翻墙，具体和你使用的网络有关）：  
 ![gradle download](img_gradle_download.jpg)  
 
 几秒至几十秒之后，对话框消失，项目建立完成！  
