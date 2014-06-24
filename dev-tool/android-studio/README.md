@@ -30,12 +30,12 @@ _注：如果点击Check按钮后弹出网络连接失败的对话框，说明�
 gradle很强大，但本文旨在把大家领进门，因此不会讲得太深。接下来，我们对一个新建项目中的app module中的build.gradle文件进行完整的解析。文件内容如下图： 
 ![build.gradle](img_build_gradle.png)  
 这份文档的内容分为三部分：  
-1. 第一行：
+####1. 第一行：
 ```groovy
 apply plugin: 'android'
 ```
 这一行表示，该项目是一个Android项目  
-2. 由`android`标签包含着的部分：
+####2. 由`android`标签包含着的部分：
 ```groovy
 android {
     compileSdkVersion 19
@@ -61,7 +61,7 @@ android {
 `applicationId`即App的id，这里简单说一下：从AS 0.6.0开始，AndroidManifest.xml中的packageName的用途被拆分了，今后packageName仅仅用于声明包路径，不再用于App id的定义，App的id由build.gradle中的applicationId单独进行指定。  
 `minSdkVersion` `targetSdkVersion` `versionCode` `versionName`这四个属性直接覆盖AndroidManifest.xml中的相应属性。换句话说，在gradle中，定义这四个属性的位置从AndroidManifest.xml中提取到了build.gradle中（但实际build出来的AndroidManifest.xml仍然会有这些属性，这里不再详述）。  
 `buildTypes`中的`release`里面的两行信息，第一行表示正式打包的apk包不使用proguard优化，第二行则是指定了proguard文件的位置（在第一行为false时不生效）  
-3. 由'dependencies'包含着的部分：
+####3. 由'dependencies'包含着的部分：
 ```groovy
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
