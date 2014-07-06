@@ -16,11 +16,11 @@ BuildType是gradle中的一个功能，它可以让开发者方便地对App的�
 
 先看一下效果图：
 
-![图标](screenshot_1.jpg =400x)
+![图标](screenshot_1.jpg)
 
-![发布版](screenshot_2.png =400x)
+![发布版](screenshot_2.png)
 
-![开发版](screenshot_3.png =400x)
+![开发版](screenshot_3.png)
 
 对上面的图片补充一下。“友邻小区”这个程序，使用BuildType实现了：
 
@@ -36,7 +36,7 @@ BuildType是gradle中的一个功能，它可以让开发者方便地对App的�
 
 直接运行程序：
 
-![demo2](demo_2.jpg =400x)
+![demo2](demo_2.jpg)
 
 接下来我要建立一个debug版，让App在debug中显示“Hello developer!”而不是“Hello world!"。
 
@@ -59,7 +59,7 @@ BuildType是gradle中的一个功能，它可以让开发者方便地对App的�
 
 到此，配置完成。再次运行App，界面显示变成了“Hello Developer!"：
 
-![demo7](demo_7.jpg =400x)
+![demo7](demo_7.jpg)
 
 而如果通过上面用过的`Build Variants`工具切换到`release`版，再次运行，将会运行`release`版，而界面仍然将将会显示“Hello world!”。
 
