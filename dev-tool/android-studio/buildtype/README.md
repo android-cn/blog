@@ -18,7 +18,7 @@ BuildType是gradle中的一个功能，它可以让开发者方便地对App的�
 
 ![图标](screenshot_1.jpg)
 
-![发布版](screenshot_2.png) ![开发版](screenshot_3.png)
+![发布版](screenshot_2.png)\ \ ![开发版](screenshot_3.png)
 
 对上面的图片补充一下。“友邻小区”这个程序，使用BuildType实现了：
 
