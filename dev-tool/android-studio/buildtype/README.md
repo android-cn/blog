@@ -65,6 +65,6 @@ _注意：release版程序需要设置signingConfig，本文不再详述。_
 
 _如果希望了解更多关于基于gradle的Android项目的知识，请参看[官方文档](http://tools.android.com/tech-docs/new-build-system/user-guide)，或关注我之后发布的其他Android Studio相关教程。_
 
-_另外，我们公司[友邻小区](http://hiyoulin.com)招聘Android开发一名，地址北京海淀，拉钩的职位描述明天才能添加，着急的请参看我们的[iOS招聘](http://www.lagou.com/jobs/77945.html)，如果有兴趣请发个人简历至我的邮箱 zhukai@hiyoulin.com。_
+_另外，我们公司[友邻小区](http://hiyoulin.com)招聘[Android开发](http://www.lagou.com/jobs/153948.html)一名，地址北京海淀紫竹桥。_
 
 _我的Github：https://github.com/rengwuxian_
