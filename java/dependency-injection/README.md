@@ -48,4 +48,4 @@ public class Human {
 
 上面这段代码看起来很神奇：只是增加了一个注解，Father对象就能自动注入了？这个注入过程是怎么完成的？
 
-实质上，如果你只是写了一个@Inject注解，Father并不会被自动注入。你还需要使用一个依赖注入框架，并进行简单的配置。现在Java语言中较流行的依赖注入框架有[Google Guice](https://github.com/google/guice)、[Spring](http://projects.spring.io/spring-framework/)等，而在Android上比较流行的有Guice的衍生品[RoboGuice](https://github.com/roboguice/roboguice)、[Dagger](http://square.github.io/dagger/)等。其中Dagger是我现在正在项目中使用的。如果感兴趣，你可以在[这篇文章](https://github.com/android-cn/android-open-project-analysis/tree/master/dagger)里面对依赖注入和Dagger了解到更多。
+实质上，如果你只是写了一个@Inject注解，Father并不会被自动注入。你还需要使用一个依赖注入框架，并进行简单的配置。现在Java语言中较流行的依赖注入框架有[Google Guice](https://github.com/google/guice)、[Spring](http://projects.spring.io/spring-framework/)等，而在Android上比较流行的有[RoboGuice](https://github.com/roboguice/roboguice)、[Dagger](http://square.github.io/dagger/)等。其中Dagger是我现在正在项目中使用的。如果感兴趣，你可以在[这篇文章](https://github.com/android-cn/android-open-project-analysis/tree/master/dagger)里面对依赖注入和Dagger了解到更多。
