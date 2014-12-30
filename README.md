@@ -10,7 +10,8 @@ Title | Author
 ### Java
 
 Title | Author
-:--|:--
+:-- |:--
+[依赖注入](https://github.com/android-cn/blog/tree/master/java/dependency-injection) | [扔物线](https://github.com/rengwuxian)
 
 ### Development Tools
 Title | Author
