@@ -14,8 +14,8 @@ public class Human {
 }
 ```
 仔细看这段代码我们会发现存在一些问题：  
-(1). 如果我们现在要改变 father 生成方式，如需要用`new Father(String name)`初始化 father 属性，则需要修改 Human 代码；  
-(2). 如果我们想测试不同 Father 对象对 Human 的影响很困难，因为 father 属性的初始化被写死在了 Human 类的构造函数中；  
+(1). 如果现在要改变 father 生成方式，如需要用`new Father(String name)`初始化 father，需要修改 Human 代码；  
+(2). 如果想测试不同 Father 对象对 Human 的影响很困难，因为 father 的初始化被写死在了 Human 的构造函数中；  
 (3). 如果`new Father()`过程非常缓慢，单测时我们希望用已经初始化好的 father 对象 Mock 掉这个过程也很困难。  
 
 ###2. 依赖注入
